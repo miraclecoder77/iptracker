@@ -1,0 +1,78 @@
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.bg-one {
+    background: black;
+    height: 35vh;
+    background: url("../assets/images/pattern-bg.png");
+    background-position: cover;
+    display: grid;
+    place-content: center;
+}
+.bg-two {
+    height: 65vh;
+}
+.bg-content {
+    height: auto;
+    width: 60rem;
+    display: grid;
+    gap: .8rem;
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    
+}
+.bg-content_header {
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: calc(1.1rem + 1.5vw);
+}
+.bg-content_search {
+    
+    display: grid;
+    place-content: center;
+
+}
+.search {
+    border-radius: 15px;
+    background: white;
+    height: 3rem;
+    width: 30rem;
+    display: flex;
+}
+.search input {
+    height: 100%;
+    width: 27rem ;
+}
+.button {
+    width: 3rem;
+    outline: none ;
+}
+.bg-content_display {
+    background: white;
+    height: 7rem;
+    border-radius: 15px;
+    margin-top: 15px;
+    display: flex;
+    font-family: 'Manrope', sans-serif;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.bg-content_display > div {
+    width: 250px;
+}
+p{
+    font-size: calc(.7rem + 0.2vw);
+    color: hsl(0, 0%, 59%);
+}
+span {
+    font-weight: 800;
+    font-size: 18px;
+    color: hsl(0, 0%, 17%);
+}
